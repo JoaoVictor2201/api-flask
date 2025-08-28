@@ -10,6 +10,7 @@ A API expõe os seguintes endpoints para manipulação de recursos de usuários:
 
 | Método | Rota               | Descrição                              | Corpo da Requisição (JSON)             | Resposta de Sucesso          |
 |--------|--------------------|----------------------------------------|----------------------------------------|------------------------------|
+| `GET`  | `/users`           | Busca todos os usuários                | N/A                                    | `200 OK` + Lista de usuários |
 | `POST` | `/users`           | Cria um novo usuário.                  | `{ "nome": "string", "email": "string" }` | `201 Created` + usuário criado |
 | `GET`  | `/users/<id>`      | Busca um usuário pelo seu ID.          | N/A                                    | `200 OK` + dados do usuário    |
 | `PUT`  | `/users/<id>`      | Atualiza um usuário existente.         | `{ "nome": "string", "email": "string" }` | `200 OK` + usuário atualizado  |
