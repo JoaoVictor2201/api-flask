@@ -26,7 +26,7 @@ Siga os passos abaixo para executar a aplicação localmente:
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/JoaoVictor2201/api-flask)
+   git clone https://github.com/JoaoVictor2201/api-flask
    ```
 
 2. **Navegue até o diretório do projeto:**
