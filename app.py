@@ -1,4 +1,3 @@
-import random
 from flask import Flask, jsonify, request
 from bd import users
 
